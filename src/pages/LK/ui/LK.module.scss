@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid rgb(136, 132, 216);
+  padding: 40px 50px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(136, 132, 216, 0.2);
+  max-width: 400px;
+  width: 100%;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: rgb(136, 132, 216);
+  }
+
+  p {
+    font-size: 18px;
+    margin: 16px 0 32px;
+    color: black;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,37 @@
+.button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid rgb(136, 132, 216);
+  background-color: #ffffff;
+  color: rgb(136, 132, 216);
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.1s ease;
+
+  &:hover:not(:disabled) {
+    background-color: rgb(136, 132, 216);
+    color: #ffffff;
+    transform: scale(1.02);
+  }
+}
+
+.disabled {
+  background-color: rgb(136, 132, 216);
+  color: #ffffff;
+  cursor: default;
+  opacity: 0.85;
+  transform: none;
+}
+
+.clear {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(136, 132, 216);
+
+  &:hover:not(:disabled) {
+    background-color: rgba(136, 132, 216, 0.1);
+  }
+}
